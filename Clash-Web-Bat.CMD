@@ -7,7 +7,7 @@ SET PATH="%~dp0";"%~dp0App";%PATH%
 CD /D %~DP0
 taskkill /IM subconverter.exe >NUL 2>NUL
 cls
-echo.&echo.
+call determine.bat
 echo -------------------------------------
 echo.
 echo  clash web ¿ØÖÆÌ¨

@@ -12,6 +12,7 @@ P.S. 下载请到这里 release，直接 Clone or download 可能会出错。
 ### 友情项目
 [ClashWeb](https://github.com/lzdnico/ClashWeb) - 基于 python 的 web 控制端，操作更直观简单。
 
+[clashcmd](https://github.com/tindy2013/clashcmd) - 纯批处理 CMD 实现管理 Clash 的丰富功能。
 
 ## 软件介绍
 此版使用的内核是 clashr - 解锁网易云音乐版。还用到了 Razord 面板和 [subconverter](https://github.com/tindy2013/subconverter/)。
@@ -66,13 +67,14 @@ A：这两项是因为网页没有动系统设置的权限，我已在批处理�
 - [x] 支持多订阅，多配置文件的切换
 - [ ] 支持关闭弹窗提示
 - [ ] 支持记忆clash关闭前选中的节点
-
+- [ ] 默认启动系统代理
 
 ## 更新记录
 2020-02-26
 V1.3.2
 BUG 修复
  - 完全解决开机自启的BUG。现在开机后如果成功启动clash，会弹一个小窗提示，并在5s后关闭弹窗
+ - 返回菜单后，系统代理失效。
  
 V1.3.1
 BUG 修复
